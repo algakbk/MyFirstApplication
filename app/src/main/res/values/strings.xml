@@ -10,10 +10,15 @@
         the universe is in ruins. With the help of remaining allies, the Avengers assemble once
         more in order to reverse Thanos\' actions and restore balance to the universe.</string>
 
+    <string name="cast">Cast</string>
     <string name="robert_downey">Robert Downey Jr.</string>
     <string name="chris_evans">Chris Evans</string>
     <string name="mark_ruffalo">Mark Ruffalo</string>
     <string name="chris_hemsworth">Chris Hemsworth</string>
+    <string name="top_menu_bg">Top Menu BG</string>
+    <string name="movie_background_image_desc">Movie Background Image</string>
+    <string name="return_back_arrow">Return Back Arrow</string>
+    <string name="review_text">125 review</string>
 
 
 </resources>
