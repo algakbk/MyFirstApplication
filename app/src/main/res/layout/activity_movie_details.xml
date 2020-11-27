@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MovieDetailsActivity">
+
+        <ImageView
+            android:id="@+id/top_menu_bg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/top_menu_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/topMovieImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orig"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/mask"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/mask"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/path"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/top_menu_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top_menu_bg"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/back_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_2x"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/back_text"
+            app:layout_constraintBottom_toBottomOf="@+id/top_menu_bg"
+            app:layout_constraintStart_toEndOf="@+id/back"
+            app:layout_constraintTop_toTopOf="@+id/top_menu_bg" />
+
+<!--        <View-->
+<!--            android:id="@+id/movie_name_bg"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="112dp"-->
+<!--            android:layout_marginTop="222dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/topMovieImage" />-->
+
+        <ImageView
+            android:id="@+id/pg_rectangle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="@dimen/space_4x"
+            android:layout_marginBottom="@dimen/space_4x"
+            android:background="@drawable/rectangles"
+            app:layout_constraintStart_toStartOf="@+id/topMovieImage"
+            app:layout_constraintBottom_toBottomOf="@+id/topMovieImage"
+            />
+
+        <TextView
+            android:id="@+id/pg_name"
+            android:layout_width="24dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="@dimen/space_1x"
+            android:text="@string/pg_name_text"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/pg_rectangle"
+            app:layout_constraintTop_toTopOf="@+id/pg_rectangle"
+            />
+
+
+        <TextView
+            android:id="@+id/movie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avengers_movie_name_text"
+            android:textColor="@color/movie_name"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/space_4x"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topMovieImage"
+            />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/movie_description"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/movie_description_text"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+
+
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="637dp"
+            app:constraint_referenced_ids=""/>
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/robert"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/robert"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/chris"-->
+    <!--        />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/chris"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/chris"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/chris_text"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/mark"-->
+    <!--        />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/mark"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/mark"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/chris"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/chrisH"-->
+    <!--        />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/chrisH"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/chrisH"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/mark"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/robert_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/robert_downey"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/chris_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:text="@string/chris_evans"-->
+
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/mark_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/mark_ruffalo"-->
+
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/chrisH_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/chris_hemsworth"-->
+
+    <!--        />-->
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
