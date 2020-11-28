@@ -21,7 +21,7 @@
 
     <style name="actors_name_style">
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/actors_name_color</item>
+        <item name="android:textColor">@color/actors_name</item>
     </style>
 
     <style name="movie_name_style">
@@ -34,7 +34,7 @@
         </item>
 
         <item name="android:textColor">
-            @color/text_color
+            @color/text
         </item>
 
         <item name="android:shadowColor">
@@ -89,7 +89,7 @@
         </item>
 
         <item name="android:textColor">
-            @color/text_color
+            @color/text
         </item>
 
         <item name="android:letterSpacing">
@@ -121,7 +121,7 @@
         </item>
 
         <item name="android:textColor">
-            @color/review_text_color
+            @color/review_text
         </item>
 
         <item name="android:textStyle">

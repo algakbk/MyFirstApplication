@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/background"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,19 +35,6 @@
             app:layout_constraintTop_toTopOf="parent"
             android:contentDescription="@string/movie_background_image_desc" />
 
-<!--        <ImageView-->
-<!--            android:id="@+id/back"-->
-<!--            android:layout_width="6dp"-->
-<!--            android:layout_height="10dp"-->
-<!--            android:layout_marginStart="18dp"-->
-<!--            android:background="@drawable/path"-->
-<!--            android:clickable="true"-->
-<!--            android:focusable="true"-->
-<!--            app:layout_constraintBottom_toBottomOf="@+id/top_menu_bg"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="@+id/top_menu_bg"-->
-<!--            android:contentDescription="@string/return_back_arrow" />-->
-
         <TextView
             android:id="@+id/back_text"
             android:layout_width="wrap_content"
@@ -74,7 +61,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="@dimen/space_4x"
-            android:layout_marginBottom="@dimen/space_2x"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/rectangles"
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/pg_name_text"
@@ -105,9 +92,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/space_4x"
-            android:layout_marginTop="@dimen/space_1x"
+            android:layout_marginTop="4dp"
             android:text="@string/category_movie_text"
-            android:textColor="@color/tag_color"
+            android:textColor="@color/tagline"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/movie_name"
@@ -121,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="@dimen/space_4x"
-            android:layout_marginTop="@dimen/space_2x"
+            android:layout_marginTop="8dp"
             android:numStars="5"
             android:rating="4"
             android:stepSize="1"
@@ -133,8 +120,8 @@
             android:id="@+id/review"
             android:layout_width="112dp"
             android:layout_height="20dp"
-            android:layout_marginStart="@dimen/space_2x"
-            android:layout_marginTop="@dimen/space_1x"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="@string/review_text"
@@ -166,7 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/space_4x"
             android:layout_marginEnd="@dimen/space_4x"
-            android:layout_marginTop="@dimen/space_2x"
+            android:layout_marginTop="8dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
@@ -186,7 +173,6 @@
             android:layout_width="0dp"
             android:layout_height="24dp"
             android:layout_marginStart="@dimen/space_4x"
-            android:layout_marginEnd="@dimen/space_4x"
             android:layout_marginTop="24dp"
             android:text="@string/cast"
             android:textAppearance="@style/cast_style"
@@ -201,8 +187,8 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintDimensionRatio="H,1:1"
-            android:layout_marginTop="@dimen/space_1x"
             android:layout_marginStart="@dimen/space_4x"
+            android:layout_marginTop="4dp"
             android:src="@drawable/img_robert"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/chris"
@@ -252,7 +238,7 @@
         <TextView
             android:id="@+id/robert_text"
             android:layout_width="0dp"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_2x"
             android:text="@string/robert_downey"
             android:textAppearance="@style/actors_name_style"
@@ -269,7 +255,7 @@
         <TextView
             android:id="@+id/chris_text"
             android:layout_width="0dp"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_2x"
             android:text="@string/chris_evans"
             android:textAppearance="@style/actors_name_style"
@@ -286,7 +272,7 @@
         <TextView
             android:id="@+id/mark_text"
             android:layout_width="0dp"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_2x"
             android:text="@string/mark_ruffalo"
             android:textAppearance="@style/actors_name_style"
@@ -303,7 +289,7 @@
         <TextView
             android:id="@+id/chrisH_text"
             android:layout_width="0dp"
-            android:layout_height="32dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/space_2x"
             android:text="@string/chris_hemsworth"
             android:textAppearance="@style/actors_name_style"
