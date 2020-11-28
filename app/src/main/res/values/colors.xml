@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorBackgroundContainer">@color/colorMoonYellow</color>
+    <color name="colorBackgroundContainer">@color/MoonYellow</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -8,18 +8,21 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
 
-    <color name="colorTransparent">#FFFFFFFF</color>
-    <color name="colorBlack">#FF000000</color>
-    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="Transparent">#FFFFFFFF</color>
+    <color name="Black">#FF000000</color>
+    <color name="White">#FFFFFFFF</color>
 
-    <color name="colorMyGray">#444444</color>
-    <color name="colorLightGray">#D6D7D7</color>
-    <color name="colorMyRed">#E54304</color>
-    <color name="colorMyGreen">#12C700</color>
-    <color name="colorMyBlue">#425A73</color>
-    <color name="colorMyYellow">#FFC107</color>
-    <color name="colorMoonYellow">#FDF8DF</color>
+    <color name="MyGray">#444444</color>
+    <color name="LightGray">#D6D7D7</color>
+    <color name="MyRed">#E54304</color>
+    <color name="MyGreen">#12C700</color>
+    <color name="MyBlue">#425A73</color>
+    <color name="MyYellow">#FFC107</color>
+    <color name="MoonYellow">#FDF8DF</color>
 
     <color name="background_color">#191926</color>
-    <color name="movie_name">#ECECEC</color>
+    <color name="text_color">#ECECEC</color>
+    <color name="tag_color">#FF3466</color>
+    <color name="actors_name_color">#D8D8D8</color>
+    <color name="review_text_color">#6D6D80</color>
 </resources>
