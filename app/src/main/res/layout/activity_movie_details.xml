@@ -108,18 +108,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="@dimen/space_4x"
-            android:layout_marginTop="8dp"
             android:numStars="5"
             android:rating="4"
             android:stepSize="1"
             android:theme="@style/MovieRatingBar"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tagline" />
+            app:layout_constraintTop_toTopOf="@+id/review"
+            app:layout_constraintBottom_toBottomOf="@+id/review"
+            />
 
         <TextView
             android:id="@+id/review"
             android:layout_width="112dp"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:layout_centerHorizontal="true"
@@ -136,7 +137,7 @@
         <TextView
             android:id="@+id/movie_story_line"
             android:layout_width="wrap_content"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/space_4x"
             android:layout_marginTop="28dp"
             android:lineSpacingExtra="4sp"
@@ -171,7 +172,7 @@
         <TextView
             android:id="@+id/cast"
             android:layout_width="0dp"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/space_4x"
             android:layout_marginTop="24dp"
             android:text="@string/cast"
