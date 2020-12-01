@@ -1,0 +1,135 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="MovieRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">#FF3365</item>
+        <item name="colorControlNormal">#6D6D80</item>
+    </style>
+
+    <style name="actors_name_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/actors_name</item>
+    </style>
+
+    <style name="movie_name_style">
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            @color/text
+        </item>
+
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            6
+        </item>
+
+        <item name="android:shadowRadius">
+            12
+        </item>
+
+    </style>
+
+    <style name="storyline_style">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #ECECEC
+        </item>
+
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            6
+        </item>
+
+        <item name="android:shadowRadius">
+            12
+        </item>
+
+    </style>
+    <style name="cast_style">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            @color/text
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            6
+        </item>
+
+        <item name="android:shadowRadius">
+            12
+        </item>
+
+    </style>
+
+    <style name="review_style">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            @color/review_text
+        </item>
+
+        <item name="android:textStyle">
+            bold
+        </item>
+
+    </style>
+
+
+
+</resources>

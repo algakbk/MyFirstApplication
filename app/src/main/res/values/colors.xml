@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorBackgroundContainer">@color/MoonYellow</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +9,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="Transparent">#FFFFFFFF</color>
+    <color name="MyGray">#444444</color>
+    <color name="LightGray">#D6D7D7</color>
+    <color name="MyRed">#E54304</color>
+    <color name="MyGreen">#12C700</color>
+    <color name="MyBlue">#425A73</color>
+    <color name="MyYellow">#FFC107</color>
+    <color name="MoonYellow">#FDF8DF</color>
+
+    <color name="background">#191926</color>
+    <color name="text">#ECECEC</color>
+    <color name="tagline">#FF3466</color>
+    <color name="actors_name">#D8D8D8</color>
+    <color name="review_text">#6D6D80</color>
 </resources>
